@@ -1,0 +1,8 @@
+create database testtransaction;
+
+CREATE TABLE `user_info` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) DEFAULT NULL COMMENT '姓名',
+  `age` int(11) DEFAULT NULL COMMENT '年龄',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
